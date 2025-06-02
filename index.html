@@ -1,0 +1,61 @@
+<head>
+    <style>
+        body{
+            background-color:rgb(198, 246, 246);
+        }
+        .box{
+            width: 400px;
+            height: 250px;
+            padding: 20px;
+            background-color: rgb(92, 236, 255);
+            border-radius: 30px;
+            outline: dashed blue;
+            background-size: cover;
+            margin: 300 auto;
+
+        }
+        .box h1{
+            color: blueviolet;
+            text-decoration: underline;
+            text-align: center;
+        }
+        .box button{
+            width: 380px;
+            height: 35px;
+            background-color: rgb(149, 220, 220);
+        }
+        .name,
+        .Email,
+        .Password{
+            font-size: 22px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="text"],
+        button[type="submit"]{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Student Registration</h1>
+        <form>
+            <table>
+                <tr>
+                    <td class="Name">Name:</td>
+                    <td><input type="text" placeholder="Enter your full name:"></td>
+                </tr>
+                <tr>
+                    <td class="Email">Email Address:</td>
+                    <td><input type="email" placeholder="Enter your email adress:"></td>
+                </tr>
+                <tr>
+                    <td class="Password">Password:</td>
+                    <td><input type="text" placeholder="Enter your Password:"></td>
+                </tr>
+            </table>    
+            <td class="button"><button type="submit">Register</button></td>      
+        </form>
+    </div>
+</body>
